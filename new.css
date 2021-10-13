@@ -15,7 +15,6 @@
     justify-content: center;
     position: sticky;
     top: 0;
-    cursor: pointer;
     height: 60px;
 }
 .nav-list{
@@ -193,4 +192,72 @@ background-blend-mode: darken;
     background:rgba(0, 0, 0, 0.7) url(gaminggod.jpg);
     background-size: cover;
 background-blend-mode: darken;
+}
+
+.Socials-head p{
+    font-size: 45px;
+    color: #ffffff;
+    background-color:rgba(20,20,20);
+}
+.youtube{
+    
+     display:flex;
+    justify-content:space-evenly;
+    padding:29px 34px;
+
+}
+
+.youtube-head {
+    font-size: 21px;
+    color: #ffffff;
+    background-color:rgba(20,20,20);
+    padding:21px 22px;
+}
+.just-a-line{
+    color :#ffffff;
+}
+
+.background-yt{
+    background-image:url(yes.png);
+    background-size:cover;
+}
+.also-youtube{
+    
+    display:flex;
+   justify-content:space-evenly;
+   padding:29px 34px;
+}
+
+.discord-head {
+    padding:21px 22px;
+    font-size: 21px;
+    color: #ffffff;
+    background-color:rgba(20,20,20);
+}
+.discord{
+    background-color:rgba(20,20,20);
+}
+.discord-widget{
+    padding-left:11px;
+}
+.discord-body{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+
+}
+.discord-list{
+    padding-top:21px ;
+
+}
+.discord-list p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#ffff;
+    font-size: 42px;
+}
+.discord-list li{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#ffff;
+    font-size: 32px;
 }
