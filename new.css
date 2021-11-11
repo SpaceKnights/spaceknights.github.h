@@ -41,6 +41,7 @@ font-size: 18px;
 .nav-list li a:hover{
     text-decoration: none;
    color: rgba(255, 255, 255, 0.281);
+ 
  } 
 .rightnav{
     margin-right: 10px;
@@ -96,9 +97,13 @@ background-blend-mode: darken;
     background: none;
     cursor: pointer;
     color:  #ffffff;
-    transition: ease-out 0.3s;
+    
     outline: none;
 
+}
+.btn-sub :hover{
+    background:#009688;
+    transition: 0.8s;
 }
 
 .btn-disc{
@@ -299,7 +304,17 @@ font-family: 'Mochiy Pop One', sans-serif;
     padding: 12px;
     font-family: 'Mochiy Pop One', sans-serif;
 }
-.submit{
+
+
+.yesput{
+    width: 590px;
+    font-size: 12px;
+    border:2px solid grey;
+    border-radius: 5px;
+    font-family: 'Mochiy Pop One', sans-serif;
+
+}
+.Submit{
     margin-top: 22px;
     background: transparent;
     border-radius: 5px;
@@ -311,11 +326,53 @@ font-family: 'Mochiy Pop One', sans-serif;
     cursor: pointer;
 }
 
-.yesput{
-    width: 590px;
-    font-size: 12px;
-    border:2px solid grey;
+.Submit {
+    margin-top: 22px;
+    background: transparent;
     border-radius: 5px;
-    font-family: 'Mochiy Pop One', sans-serif;
-
-}
+    border:1px solid #ffffff;
+    color: #ffffff;
+    height: 33px;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+ }
+.Submit:hover {
+    background-color: #ffff;
+    color: black;
+    transition: 1.2s;
+ }
+ .try-2 {
+    margin-top: 22px;
+    background: transparent;
+    border-radius: 5px;
+    border:1px solid  #009688;;
+    color: #ffffff;
+    height: 43px;
+    align-items: center;
+    width: 26%;
+    cursor: pointer;
+    
+ }
+.try-2:hover {
+    background-color:  #009688;;
+    color: black;
+    transition: ease-out 1.2s;
+ }
+ .try-1 {
+    margin-top: 22px;
+    background: transparent;
+    border-radius: 5px;
+    border:1px solid  #009688;;
+    color: #ffffff;
+    height: 43px;
+    align-items: center;
+    width: 26%;
+    cursor: pointer;
+ }
+.try-1:hover {
+    background-color:  #009688;;
+    color: black;
+    transition: 1.2s;
+ }
+ 
