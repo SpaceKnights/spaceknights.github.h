@@ -356,7 +356,7 @@ font-family: 'Mochiy Pop One', sans-serif;
  }
 .try-2:hover {
     background-color:  #009688;;
-    color: black;
+
     transition: ease-out 1.2s;
  }
  .try-1 {
@@ -372,7 +372,7 @@ font-family: 'Mochiy Pop One', sans-serif;
  }
 .try-1:hover {
     background-color:  #009688;;
-    color: black;
+   
     transition: 1.2s;
  }
  
