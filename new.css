@@ -365,6 +365,10 @@ font-family: 'Mochiy Pop One', sans-serif;
  }
 .try-2:hover {
     background-color:  #009688;;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 65fbfc5f698ea6c66a3056d9d7eb6f89c0635602
     transition: ease-out 1.2s;
  }
  .try-1 {
@@ -380,7 +384,11 @@ font-family: 'Mochiy Pop One', sans-serif;
  }
 .try-1:hover {
     background-color:  #009688;;
+<<<<<<< HEAD
 
+=======
+   
+>>>>>>> 65fbfc5f698ea6c66a3056d9d7eb6f89c0635602
     transition: 1.2s;
  }
  
