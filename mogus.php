@@ -1,16 +1,28 @@
-<?php
+<?php 
 
-$name = $_POST['name'];
-$email= $_POST['email'];
-$message= $_POST['text'];
-$to = "spaceknightsbysb@gmail.com";
-$subject = "Mail From website";
-$txt ="Name = ". $name . "\r\n  Email = " . $email . "\r\n text =" . $message;
-$headers = "From: noreply@yoursite.com" . "\r\n" .
-"CC: somebodyelse@example.com";
-if($email!=NULL){
-    mail($to,$subject,$txt,$headers);
-}
-//redirect
-header("Location:thankyou.html");
+    if(isset($_POST['Submit']))
+    {
+       $UserName = $_POST['name'];
+       $Email = $_POST['email'];
+       $Subject = $_POST['topic'];
+       $Msg = $_POST['text'];
+
+       if(empty($UserName) || empty($Email) || empty($Subject) || empty($Msg))
+       {
+           header('location:index.php?error');
+       }
+       else
+       {
+           $to = "spaceknightsbysb@gmail.com";
+
+           if(mail($to,$Subject,$Msg,$Email))
+           {
+               header("location:index.php?success");
+           }
+       }
+    }
+    else
+    {
+        header("location:index.php");
+    }
 ?>

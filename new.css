@@ -51,8 +51,9 @@ font-size: 18px;
 #search{
     padding: 5px;
     font-size: 17px;
-    border: 2px rgb(73, 98, 112)s;
+    border: 2px rgb(20,20,20);
     border-radius:  9 px;
+    background-color:rgba(20,20,20);
 }
 .background{
 background:rgba(0, 0, 0, 0.7) url(w0w.jpg);
@@ -119,6 +120,9 @@ background-blend-mode: darken;
 .btn-sm{
     padding: 5px;
     font-size: 17px;
+    color: transparent;
+    background:transparent;
+    border-color: transparent;
 
 }
 .About-us{
@@ -272,7 +276,8 @@ background-blend-mode: darken;
 }
 .contac-boc{
     align-items: center;
-    background-color:rgba(20,20,20);
+    background:rgba(0, 0, 0, 0.7) url(contacer.jpeg);
+    background-blend-mode: darken;
     padding: 12px;
     
 }
@@ -286,7 +291,10 @@ background-blend-mode: darken;
 .form{
     padding:22px;
     max-width: 590px;
+    background:rgba(20,20,20);
     margin: auto;
+    border-radius: 26px;
+    box-shadow: black;
  
 }
 .form input{
@@ -296,6 +304,7 @@ background-blend-mode: darken;
 border-radius: 5px;
 align-items: center;
 font-family: 'Mochiy Pop One', sans-serif;
+
 }
 .contac-boc p{
     color: white;
@@ -356,7 +365,6 @@ font-family: 'Mochiy Pop One', sans-serif;
  }
 .try-2:hover {
     background-color:  #009688;;
-    color: black;
     transition: ease-out 1.2s;
  }
  .try-1 {
@@ -372,7 +380,7 @@ font-family: 'Mochiy Pop One', sans-serif;
  }
 .try-1:hover {
     background-color:  #009688;;
-    color: black;
+
     transition: 1.2s;
  }
  
